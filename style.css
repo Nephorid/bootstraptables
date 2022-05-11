@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Palanquin:400,600&subset=latin,latin-ext);
+.icon-comment {
+    font-size: 15px;
+}
+
+@font-face {
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/palanquin/v11/9XUnlJ90n1fBFg7ceXwccVtN.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+    
+.face {
+    display: inline-block;
+    font-size: 16px;
+    color: #3A5795;
+    background: #fff;
+    padding: 10px
+}
+
+.face:hover {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    background: #3A5795;
+}
+
+body {
+    font-size: 13px;
+    font-family: Palanquin;
+    margin: 0;
+}
+
+.kodarkafon{
+    background-color: rgb(206, 206, 206);
+}
+.cikti{
+    background-color: rgb(240, 229, 247);
+}
+
+.arakesici {
+    background: #fff;
+    border-bottom: 2px solid #CCC;
+}
+.genelyazi{
+    font-size: 19px;
+}
+
+.bolum {
+    height: 10px;
+}
+    
+.baslik {
+    height: 300px;
+}
+.text{
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+    height: 400px;
+    padding-top: 100px;
+}
+.konubasliklari{
+        text-align: center;
+        color: rgb(195, 0, 255);
+    
+        height: 100px;
+        padding-top: 40px;
+}
+h1 {
+    font-size: 80px;
+    margin: 0;
+}
+h4{
+    font-size: 30px;
+    margin: 0;
+ 
+}
+header {
+    position: fixed;
+    background: #222222;
+    padding: 5px;
+    width: 100%;
+    text-align: justify;
+    z-index: 5
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+}
+
+.logo img {
+    height: 60px
+}
+
+
+h1 span{
+    color:#2DB200;
+}
+
+
+header>.container {}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1400px
+}
+
+
+.column-25 {
+    width: 50%;
+    float: center;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    margin: 20px auto 0 auto;
+    padding: 25px 0 25px 0;
+    background: #222222;
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+h2.title {
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 2;
+}
+
+span {
+    display: inline-block;
+    position: relative;
+}
